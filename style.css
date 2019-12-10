@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+body{
+    background-image:url("./mountain-hero.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgb(245, 245, 245);
+   
+}
+.wrapper{
+    width:576px;
+    margin:auto;
+}
+nav{
+    display:flex;
+    align-items: center;
+    padding:15px 10px;
+   
+}
+.logo{
+    flex:1;
+}
+.links{
+    display:flex;
+  
+}
+.links li{
+    margin-right:8px;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+    color: #2f2f2f;
+}
+.Email{
+    background-color: white;
+    margin: 20px 10px;
+    height: 100vh;
+ 
+}
+.hero-box{
+    height: 40%;
+    background-image:url("https://wallpapercave.com/wp/9VhZtYR.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.hero-txt{
+    position: relative;
+    text-align:center;
+    top:50%;
+    
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.hero-txt h1{
+    color:white;
+    letter-spacing: 3px;
+}
+.hero-txt p{
+    color:#d8d8d8;
+}
+.bnt-main{
+    padding:8px 15px;
+    margin:5px 0;
+    border-radius: 30px;
+    background-color:white;
+    color:black;
+    border:1px solid white;
+}
+.row-1{
+    display: flex;
+    padding: 10px;
+}
+.img-box{
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+.img-box img{
+    width:90%;
+    height:100%;
+    margin:auto;
+}
+.header-box{
+    text-align:center;
+    padding:20px 0;
+}
+footer{
+  
+    text-align: center;
+}
+@media screen and (max-width:576px){
+    .wrapper{
+        width:90vw;
+  
+    }
+    .row-1{
+        flex-direction: column;
+    }
+    .wrapper{
+      height:100%;
+    }
+}
